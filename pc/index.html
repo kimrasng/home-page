@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>김레생</title>
+    <link rel="stylesheet" href="css/main/style.css">
+    <script src="js./index.js"></script>
+    <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/jtv_user_pictures/dea76f02-9ca6-428e-b885-c08f10937e45-profile_image-70x70.png">
+    </head>
+	<div class="href-right-items" style="height: 0em;">
+		<ul class="nav justify-content-end"style="margin-top: 0px;">
+		  <ul class="nav justify-content-end" style="margin-top: 9px;">
+			<li class="nav-item">
+				<a href="olympic.html" class="nav-item nav-link">도쿄 2020 올림픽</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://twitter.com/kimrasng">트위터</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://www.twitch.tv/kimrasng">트위치</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="http://유튜브.kimrasng.kro.kr">유튜브</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="http://디스코드.kimrasng.kro.kr">디스코드</a>
+			</li>
+			<li class="nav-item">
+				<a href="rule.html" class="nav-item nav-link">규칙</a>
+			</li>
+			<li class="nav-item">
+				<a href="help.html" class="nav-item nav-link">문의</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://www.instagram.com/kimrasng/">인스타</a>
+			</li>
+		  </ul>
+		</ul>
+	  </div>
+	  <input type="checkbox" id="menuicon">
+      <label for="menuicon"style="margin-bottom: 0px;">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+        <div class="sidebar">
+			<ul class="list_nav type_fix"style="margin-top: 130px; margin-left: 60px;">
+            <li><a class="nav-link" id="taxt" href="">트위치</li>
+              <ul>
+                <a href="url/twitch.html" class="nav-item nav-link">공식계정</a>
+                <a href="url/twitch2.html" class="nav-item nav-link">김레생2</a>
+                <a href="url/tast-twitch.html" class="nav-item nav-link">개발 방송</a>
+              </ul>
+            </li>
+          <li><a class="nav-link" id="taxt" href="">개발자</a>
+            <ul>
+				<a href="help.html" class="nav-item nav-link">문의</a>
+            	<a href="url/toon.html" class="nav-item nav-link">후원</a>
+            </ul>
+          </li>
+        </ul>
+      </div>
+	<div class="href">
+	</div>
+    <h1></h1>
+	<div class="title">
+	KIMRASNG
+	</div>
+	<div class="main"style="margin-bottom: 100px;">
+	  RSG
+	</div>
+	<div class="prices">
+		<div class="price-item"style="margin-left: 535px;">
+		  <div class="price-item-title">
+			추천 영상
+		  </div>
+			<div class="price-item-price"style="height: 457px;width: 500px;padding-left: 0px;padding-top: 0px;">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/3x2VQT1ZIJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreenstyle="height: 448px;width: 797px;"style="width: 799px;height: 455px;"></iframe>
+			</div>
+			<div class="href">
+			</div>
+			<ul class="nav justify-content-end" style="margin-top: 1px;">
+			<li class="nav-item">
+			<a class="nav-link" href="http://kimrasng.kro.kr">©김레생</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="index.html">제휴</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="https://twitch.tv/kimrasng2">개발자 라이브</a>
+		  </li>
+		</div>
+	</div>
+	<!-- Messenger 채팅 플러그인 Code -->
+	<div id="fb-root"></div>
+
+	<!-- Your 채팅 플러그인 code -->
+	<div id="fb-customer-chat" class="fb-customerchat">
+	</div>
+
+	<script>
+	var chatbox = document.getElementById('fb-customer-chat');
+	chatbox.setAttribute("page_id", "102101902104939");
+	chatbox.setAttribute("attribution", "biz_inbox");
+
+	window.fbAsyncInit = function() {
+		FB.init({
+		xfbml            : true,
+		version          : 'v11.0'
+		});
+	};
+
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+</html>
