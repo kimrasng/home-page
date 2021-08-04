@@ -110,24 +110,6 @@ input[id="menuicon"]:checked + label + div {
     left:0;
 }
 
-h1 {
-    font-size: 70px;
-    width: 1500px;
-    height: 40px;
-    color: black;
-    border-radius: 30px;
-    position: absolute;
-    top: -0.0006%;
-    left: 9%;
-    text-align: center;
-    margin-top: 61px;
-
-}
-
-h1:focus {
-    outline: 0;
-}
-
 .rounded-3 {
     color: black;
 }
